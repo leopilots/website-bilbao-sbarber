@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #212121;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* navegation */
+.nav-main {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.nav-brand a img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.menu-btn {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+}
+
+.menu-btn:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.nav-menu {
+    background-color: #fff;
+    width: 100%;
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+    display: none; 
+    text-align: center;
+    max-height: 0; 
+    overflow: hidden; 
+    transition: max-height 0.5s ease-in-out;
+}
+
+.nav-menu.show {
+    max-height: 500px; 
+    display: block; 
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #212121;
+    display: block;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-menu li a:hover {
+    transition: 0.5s;
+    background-color: #212121;
+    color: #fff;
+}
