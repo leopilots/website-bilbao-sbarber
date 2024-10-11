@@ -8,9 +8,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     background-color: #fff;
     color: #212121;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 .show {
@@ -26,12 +33,12 @@ body {
     background-color: #fff;
     text-align: center;
     width: 100%;
-    padding: 30px 0;
+    padding: 0;
 }
 
 .nav-brand a img {
     width: 250px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .menu-btn {
@@ -69,12 +76,42 @@ body {
     display: block;
     padding: 30px;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: 600;
 }
 
 .nav-menu li a:hover {
     transition: 0.5s;
     background-color: #212121;
     color: #fff;
+}
+
+/* footer */
+.footer-container {
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft-text {
+    font-size: 0.8rem;
+}
+
+.ft-redes ul {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+}
+
+.ft-redes ul li a {
+    text-decoration: none;
+    color: #212121;
+    margin: 0 10px;
+}
+
+.ft-redes ul li a:hover {
+    transition: 0.5s;
+    opacity: 0.5;
 }
