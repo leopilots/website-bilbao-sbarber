@@ -159,6 +159,16 @@ header {
     color: #212121;
 }
 
+
+/* city */
+.city-container {
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.city-container h3 { font-weight: 500; }
+
 @media (max-width: 1024px) {
     /* header */
     .header-container {
