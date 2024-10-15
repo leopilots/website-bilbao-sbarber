@@ -226,7 +226,7 @@ header {
 @media (max-width: 1000px) {
     /* header */
     header {
-        background: url('/assets/img/header.jpg') no-repeat top/cover;
+        background: url('/assets/img/header.jpg') no-repeat center;
         width: 100%;
         height: auto;
     }
