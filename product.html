@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/2bddb3b430.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/product.css">
 </head>
 <body>
     <!-- navegation -->
@@ -39,11 +40,28 @@
     </nav>
     <!-- main -->
     <main>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar productos..." onkeyup="filterProducts()">
+        </div>
         <div class="container">
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51ravFtXVXL._SX466_.jpg" alt="Producto 1">
+                <h3>Pacinos Matte, 4 Onzas</h3>
+                <p>Ideal para todos los tipos de cabello, incluyendo recto, ondulado o rizado, Utilice este producto para definir su aspecto al tiempo que añade volumen y plenitud al cabello; Crear looks clásicos y modernos, como el ceasar, el fohawk y el aspecto desordenado; Pudín de aceite de Argania Fantasia, 16 onzas.</p>
+                <div class="price">120 Bs</div>
+                <a href="#">Reservar</a>
+            </div>
+             <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/613TfOjyprL._SX522_.jpg" alt="Producto 2">
+                <h3>L3 Polvo de peinado de nivel 3</h3>
+                <p>Nuestro polvo para el cabello para hombres te da el aspecto natural deseado mientras te proporciona volumen y textura.Nuestro polvo para el cabello para hombres te da el aspecto natural deseado mientras te proporciona volumen y textura.</p>
+                <div class="price">100 Bs</div>
+                <a href="#">Reservar</a>
+            </div>
         </div>
     </main>
     <!-- footer -->
-     <footer>
+    <footer>
         <div class="footer-container">
             <div class="ft-text">
                 <h2>Bilbao's Barber - Todos los derechos reservados © 2024.</h2>
@@ -62,8 +80,9 @@
                 </ul>
             </div>
         </div>
-     </footer>
+    </footer>
     <!-- javascript -->
-     <script src="assets/js/index.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/product.js"></script>
 </body>
 </html>
