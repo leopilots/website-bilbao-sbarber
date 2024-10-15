@@ -6,20 +6,6 @@ Bienvenido al repositorio de **Bilbao's Barber**, la página web oficial de nues
 
 Bilbao's Barber es una página web diseñada para brindar a nuestros clientes una experiencia fluida al conocer nuestros productos y servicios, permitiendo realizar reservas de manera sencilla por whatsapp para adquirir productos o servicios en nuestra barbería.
 
-### Páginas Principales
-
-1. **Index**: Una pequeña presentación sobre Bilbao's Barber y lo que ofrecemos.
-   
-   ![Macbook - Index](https://raw.githubusercontent.com/leopilots/website-bilbao-sbarber/refs/heads/main/images/Macbook-1.png)
-
-2. **Productos**: Aquí nuestros clientes pueden explorar los productos disponibles, que se pueden reservar para recogerlos en el local.
-
-   ![Macbook - Productos](https://raw.githubusercontent.com/leopilots/website-bilbao-sbarber/refs/heads/main/images/Macbook-2.png)
-
-3. **Reservas**: En este apartado, nuestros clientes pueden conocer los servicios disponibles y reservar una cita.
-
-   ![Macbook - Reservas](https://raw.githubusercontent.com/leopilots/website-bilbao-sbarber/refs/heads/main/images/Macbook-3.png)
-
 ### Diseño Responsivo
 
 La página está optimizada para verse bien tanto en escritorio como en dispositivos móviles. Aquí algunos ejemplos de cómo se ve la página en diferentes dispositivos:
@@ -56,7 +42,7 @@ La página está optimizada para verse bien tanto en escritorio como en disposit
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/bilbao-barber.git
+   git clone https://github.com/leopilots/website-bilbao-sbarber.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
 
