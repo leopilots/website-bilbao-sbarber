@@ -118,7 +118,7 @@ main {
 
 /* header */
 header {
-    background: url('/assets/img/header.jpg') no-repeat center;
+    background: url('../img/header.jpg') no-repeat center;
     background-size: cover;
     background-position: center 45%;
     width: 100%;
@@ -226,7 +226,9 @@ header {
 @media (max-width: 1000px) {
     /* header */
     header {
-        background: url('/assets/img/header.jpg') no-repeat center;
+        background: url('../img/header.jpg') no-repeat center;
+        background-size: cover;
+        background-position: center 45%;
         width: 100%;
         height: auto;
     }
